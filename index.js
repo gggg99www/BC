@@ -109,7 +109,7 @@ m.sendMessage(args)
 
 
    const adminprefix = "*";
-const devs = ['499982945088569344','408396389291393025'];
+const devs = ['499982945088569344','0'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
